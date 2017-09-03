@@ -407,7 +407,7 @@ blockquote {
 }
 .gallery {
   div[class^="col-"], div[class*=" col-"] {
-    padding: 0;
+    padding: 0 1em 0 1em;
     position: relative;
     &:hover .overlay {
       opacity: 1;
@@ -427,6 +427,7 @@ blockquote {
   width: 100%;
   opacity: 0;
   transition: .2s ease-out;
+  color: #FFF;
   background-color: $black;
   a {
     color: #FFF;
