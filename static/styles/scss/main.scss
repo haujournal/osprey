@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Rubik|Bitter");
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat');
 @import "flexboxgrid";
 
 // TODO: Cleanup.
@@ -11,9 +11,9 @@ $smoke: #F7F7F7;
 $accent: #DA784D;
 
 // Fonts
-$font-header: "Bitter", "Roboto Slab", "Cambria", Georgia, serif;
-$font-body: "Rubik", "Poppins", "Hel­vetica", Arial, sans-serif;
-$font-code: "Menlo", "Monaco", "Andale Mono", "lucida console", "Courier New", monospace;
+$font-header: "Montserrat", "Roboto", "Helvetica", Arial, sans-serif;
+$font-body: "Merriweather", "Roboto Slab", "Times New Roman", serif;
+$font-code: "Menlo", "Monaco", "Andale Mono", "Lucida Console", "Courier New", monospace;
 
 // Modular font scale
 // Large: http://www.modularscale.com/?1.25&em&1.333&web&text
