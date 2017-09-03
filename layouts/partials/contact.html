@@ -3,19 +3,21 @@
         <div class="row center-xs">
             <div class="col-xs-12"><h1>Let&rsquo;s Chat</h1></div>
         </div>
-        {{ if .Site.Params.github }}
-        <div class="col-xs-3 col-md-2"><a href="https://github.com/{{ .Site.Params.github }}">GitHub</a></div>
-        {{ end }}
-        {{ if .Site.Params.linkedin }}
-        <div class="col-xs-3 col-md-2"><a href="https://linkedin.com/in/{{ .Site.Params.linkedin }}">LinkedIn</a></div>
-        {{ end }}
-        {{ if .Site.Params.twitter }}
-        <div class="col-xs-3 col-md-2"><a href="https://twitter.com/{{ .Site.Params.twitter }}">Twitter</a></div>
-        {{ end }}
-        {{ if .Site.Params.facebook }}
-        <div class="col-xs-3 col-md-2"><a href="https://facebook.com/{{ .Site.Params.facebook }}">Facebook</a></div>
-        {{ end }}
-        {{ if .Site.Params.ajaxFormspree }}
+        <div class="row center-xs">
+            {{ if .Site.Params.github }}
+            <div class="col-xs-3 col-md-2"><a href="https://github.com/{{ .Site.Params.github }}">GitHub</a></div>
+            {{ end }}
+            {{ if .Site.Params.linkedin }}
+            <div class="col-xs-3 col-md-2"><a href="https://linkedin.com/in/{{ .Site.Params.linkedin }}">LinkedIn</a></div>
+            {{ end }}
+            {{ if .Site.Params.twitter }}
+            <div class="col-xs-3 col-md-2"><a href="https://twitter.com/{{ .Site.Params.twitter }}">Twitter</a></div>
+            {{ end }}
+            {{ if .Site.Params.facebook }}
+            <div class="col-xs-3 col-md-2"><a href="https://facebook.com/{{ .Site.Params.facebook }}">Facebook</a></div>
+            {{ end }}
+            {{ if .Site.Params.ajaxFormspree }}
+        </div>
         <form id="form-contact" action="https://formspree.io/{{ .Site.Params.email }}" method="POST">
             <div class="row center-xs">
                 <div class="col-xs-12 col-sm-6"><input type="text" name="name" placeholder="Name" required></div>
