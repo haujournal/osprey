@@ -937,7 +937,7 @@ nav {
   .nav-full a {
     color: #FFF; }
     .nav-full a:hover {
-      color: #DA784D; }
+      color: #7BC142; }
 
 .nav-full.active {
   transform: translate(-100vw, 0px); }
@@ -1014,7 +1014,7 @@ a {
   a img {
     border: none; }
   a:hover {
-    color: #DA784D; }
+    color: #7BC142; }
 
 img {
   margin: 0 auto;
@@ -1078,7 +1078,7 @@ blockquote:before, blockquote:after {
   font-family: "Merriweather", "Roboto Slab", "Times New Roman", serif;
   content: '\201C';
   font-size: 35px;
-  color: #DA784D; }
+  color: #7BC142; }
 
 blockquote {
   font-family: "Merriweather", "Roboto Slab", "Times New Roman", serif;
@@ -1111,13 +1111,13 @@ blockquote {
     margin-left: 3px; }
   .content a {
     text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff, 0.03em 0.075em #fff, -0.03em 0.075em #fff, 0.06em 0.075em #fff, -0.06em 0.075em #fff, 0.09em 0.075em #fff, -0.09em 0.075em #fff, 0.12em 0.075em #fff, -0.12em 0.075em #fff, 0.15em 0.075em #fff, -0.15em 0.075em #fff;
-    background-image: linear-gradient(#DA784D, #DA784D);
+    background-image: linear-gradient(#7BC142, #7BC142);
     background-size: 1px 2px;
     background-repeat: repeat-x;
     background-position: 0 95%;
     text-decoration: none; }
     .content a:hover {
-      color: #DA784D; }
+      color: #7BC142; }
 
 .highlight {
   margin: 10px 0; }
@@ -1147,13 +1147,13 @@ blockquote {
         font-size: 1.375rem; } }
   .about a {
     text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff, 0.03em 0.075em #fff, -0.03em 0.075em #fff, 0.06em 0.075em #fff, -0.06em 0.075em #fff, 0.09em 0.075em #fff, -0.09em 0.075em #fff, 0.12em 0.075em #fff, -0.12em 0.075em #fff, 0.15em 0.075em #fff, -0.15em 0.075em #fff;
-    background-image: linear-gradient(#DA784D, #DA784D);
+    background-image: linear-gradient(#7BC142, #7BC142);
     background-size: 2px 3px;
     background-repeat: repeat-x;
     background-position: 0 95%;
     text-decoration: none; }
     .about a:hover {
-      color: #DA784D; }
+      color: #7BC142; }
 
 .gallery div[class^="col-"], .gallery div[class*=" col-"] {
   padding: 0;
@@ -1177,7 +1177,7 @@ blockquote {
   .overlay a {
     color: #FFF; }
     .overlay a:hover {
-      color: #DA784D; }
+      color: #7BC142; }
   .overlay h2 {
     color: #FFF; }
   .overlay h3 {
@@ -1214,7 +1214,7 @@ input, textarea {
     color: #FFF;
     transition: .2s ease-out; }
     input[type="submit"]:hover, textarea[type="submit"]:hover {
-      background-color: #DA784D;
+      background-color: #7BC142;
       color: #FFF;
       cursor: pointer; }
 
