@@ -1156,7 +1156,7 @@ blockquote {
       color: #7BC142; }
 
 .gallery div[class^="col-"], .gallery div[class*=" col-"] {
-  padding: 0 1em 0 1em;
+  padding: 0 .5em 0 .5em;
   position: relative; }
   .gallery div[class^="col-"]:hover .overlay, .gallery div[class*=" col-"]:hover .overlay {
     opacity: 1; }
@@ -1173,8 +1173,9 @@ blockquote {
   width: 100%;
   opacity: 0;
   transition: .2s ease-out;
-  color: #FFF;
   background-color: #212121; }
+  .overlay div {
+    color: #FFF; }
   .overlay a {
     color: #FFF; }
     .overlay a:hover {
