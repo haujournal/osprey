@@ -870,7 +870,7 @@ html {
 
 body {
   font-size: 1.25rem;
-  font-family: "Merriweather", "Roboto Slab", "Times New Roman", serif;
+  font-family: "Montserrat", "Roboto", "Helvetica", Arial, sans-serif;
   line-height: 1.6;
   color: #212121; }
   @media (max-width: 48em) {
@@ -888,7 +888,7 @@ header {
   header img {
     max-height: 12rem; }
   header h1 {
-    font-family: "Merriweather", "Roboto Slab", "Times New Roman", serif; }
+    font-family: "Montserrat", "Roboto", "Helvetica", Arial, sans-serif; }
   header .cursor {
     animation: 1s blink step-end infinite; }
 
@@ -908,7 +908,7 @@ nav {
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4); }
   nav h3 {
     margin: 0;
-    font-family: "Merriweather", "Roboto Slab", "Times New Roman", serif;
+    font-family: "Montserrat", "Roboto", "Helvetica", Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 600; }
@@ -961,7 +961,7 @@ p {
     font-family: "Menlo", "Monaco", "Andale Mono", "Lucida Console", "Courier New", monospace; }
 
 h1, h2, h3 {
-  font-family: "Montserrat", "Roboto", "Helvetica", Arial, sans-serif;
+  font-family: "Merriweather", "Roboto Slab", "Times New Roman", serif;
   margin-top: 2rem;
   letter-spacing: 2px; }
   h1 a, h2 a, h3 a {
@@ -1075,13 +1075,13 @@ ul li {
   list-style-type: disc; }
 
 blockquote:before, blockquote:after {
-  font-family: "Montserrat", "Roboto", "Helvetica", Arial, sans-serif;
+  font-family: "Merriweather", "Roboto Slab", "Times New Roman", serif;
   content: '\201C';
   font-size: 35px;
   color: #DA784D; }
 
 blockquote {
-  font-family: "Montserrat", "Roboto", "Helvetica", Arial, sans-serif;
+  font-family: "Merriweather", "Roboto Slab", "Times New Roman", serif;
   text-align: center;
   padding: 25px; }
   blockquote p {
@@ -1181,13 +1181,13 @@ blockquote {
   .overlay h2 {
     color: #FFF; }
   .overlay h3 {
-    font-family: "Merriweather", "Roboto Slab", "Times New Roman", serif; }
+    font-family: "Montserrat", "Roboto", "Helvetica", Arial, sans-serif; }
 
 .blog {
   min-height: 100vh; }
   .blog h3 {
     margin: 0 0 2rem;
-    font-family: "Merriweather", "Roboto Slab", "Times New Roman", serif; }
+    font-family: "Montserrat", "Roboto", "Helvetica", Arial, sans-serif; }
 
 .contact {
   width: 100%;
@@ -1227,5 +1227,3 @@ footer {
   background-color: #212121; }
   footer div, footer a {
     color: #FFF; }
-
-/*# sourceMappingURL=main.css.map */
