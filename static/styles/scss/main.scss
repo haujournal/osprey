@@ -442,6 +442,7 @@ blockquote {
   }
   h3 {
     font-family: $font-body;
+    margin-top: $vertical-rhythm * .5;
   }
 }
 .blog {

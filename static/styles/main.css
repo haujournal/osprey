@@ -1183,7 +1183,8 @@ blockquote {
   .overlay h2 {
     color: #FFF; }
   .overlay h3 {
-    font-family: "Montserrat", "Roboto", "Helvetica", Arial, sans-serif; }
+    font-family: "Montserrat", "Roboto", "Helvetica", Arial, sans-serif;
+    margin-top: 1rem; }
 
 .blog {
   min-height: 100vh; }
