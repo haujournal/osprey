@@ -849,7 +849,12 @@
   nav div:not(:first-child):not(:last-child) {
     display: none; }
   nav div.nav-toggle a {
-    display: block; } }
+    display: block;
+    float: right;
+    margin-right: 1em; }
+  nav div.logo a {
+    float: left;
+    margin-left: 1em; } }
 @media (max-width: 400px) {
   body .container {
     padding: 4rem 2rem; } }

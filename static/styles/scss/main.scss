@@ -67,6 +67,12 @@ $breakpoint-small: 768px;
     }
     div.nav-toggle a {
       display: block;
+      float: right;
+      margin-right: 1em;
+    }
+    div.logo a {
+      float: left;
+      margin-left: 1em;
     }
   }
 }
