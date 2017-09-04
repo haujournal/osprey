@@ -416,7 +416,7 @@ blockquote {
     padding: 0 .5em 0 .5em;
     position: relative;
     &:hover .overlay {
-      opacity: 1;
+      opacity: .9;
     }
   }
   img {
@@ -434,6 +434,9 @@ blockquote {
   opacity: 0;
   transition: .2s ease-out;
   background-color: $black;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
   div {
     color: #FFF;
   }
