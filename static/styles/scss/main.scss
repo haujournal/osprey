@@ -43,8 +43,8 @@ $base-line-height: 1.6;
 $base-font-size: 1.25rem; // 20px
 $vertical-rhythm: $base-line-height * $base-font-size; // 2.125em or 34px
 
-$breakpoint-medium: 48em; // 768px
-$breakpoint-small: 25em; // 400px
+$breakpoint-medium: 992px;
+$breakpoint-small: 768px;
 
 @mixin size($level) {
   font-size: map-get($font-scale-large, $level);
@@ -56,7 +56,7 @@ $breakpoint-small: 25em; // 400px
   }
 }
 
-@media(max-width: 48em) {
+@media(max-width: 768px) {
   body .container {
     padding: $vertical-rhythm * 2 $vertical-rhythm;
   }
@@ -70,7 +70,7 @@ $breakpoint-small: 25em; // 400px
     }
   }
 }
-@media(max-width: 25em) {
+@media(max-width: 400px) {
   body .container {
     padding: $vertical-rhythm * 2 $vertical-rhythm;
   }
