@@ -892,7 +892,7 @@ header {
   background-size: cover; }
   header div {
     z-index: 101; }
-    header div #credits {
+    header div .credits {
       position: absolute;
       top: 0;
       right: 0;

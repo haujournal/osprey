@@ -32,7 +32,7 @@ $(document).ready(function(){
         ["images/backgrounds/hau-49.jpg",'1600','1200','<a href="http://lorenzoferrarini.com/">Photo by Lorenzo Ferrarini</a>']
     );
     var rn = Math.floor(Math.random()*(img_bg.length));
-    $('#credits').empty().prepend(img_bg[rn][3]);
+    $('.credits').empty().prepend(img_bg[rn][3]);
     $('header').css('background-image', 'url(../' + img_bg[rn][0] + ')');
 
 });
