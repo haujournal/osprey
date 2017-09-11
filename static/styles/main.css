@@ -886,10 +886,7 @@ body {
       font-size: 1.1rem; } }
 
 header {
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  height: 100vh; }
   header div {
     z-index: 101; }
   header img {
@@ -909,6 +906,11 @@ header {
     border-bottom-left-radius: 5px; }
   header .cursor {
     animation: 1s blink step-end infinite; }
+  header .headerBg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 100; }
 
 @keyframes "blink" {
   from, to {

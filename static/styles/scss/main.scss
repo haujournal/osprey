@@ -115,9 +115,6 @@ body {
 }
 header {
   height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   div { z-index: 101; }
   img { max-height: $vertical-rhythm * 6; }
   h1 {
@@ -136,6 +133,12 @@ header {
       border-bottom-left-radius: 5px;
   }
   .cursor { animation: 1s blink step-end infinite; }
+  .headerBg {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 100;
+  }
 }
 @keyframes "blink" {
   from, to { color: transparent; }
