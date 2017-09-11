@@ -887,7 +887,9 @@ body {
 
 header {
   height: 100vh;
-  background-color: #FFF; }
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
   header div {
     z-index: 101; }
   header img {
