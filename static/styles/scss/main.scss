@@ -115,9 +115,6 @@ body {
 }
 header {
   height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   div { z-index: 101; }
   img { max-height: $vertical-rhythm * 6; }
   h1 {
@@ -134,6 +131,18 @@ header {
       opacity: .4;
       padding: .25rem .5rem .25rem .25rem;
       border-bottom-left-radius: 5px;
+  }
+  .headerBg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -101;
+      img {
+          max-width: 100%;
+          max-height: 100%;
+          min-width: 100%;
+          min-height: 100%;
+      }
   }
   .cursor { animation: 1s blink step-end infinite; }
 }

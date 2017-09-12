@@ -886,10 +886,7 @@ body {
       font-size: 1.1rem; } }
 
 header {
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  height: 100vh; }
   header div {
     z-index: 101; }
   header img {
@@ -907,6 +904,16 @@ header {
     opacity: .4;
     padding: .25rem .5rem .25rem .25rem;
     border-bottom-left-radius: 5px; }
+  header .headerBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -101; }
+    header .headerBg img {
+      max-width: 100%;
+      max-height: 100%;
+      min-width: 100%;
+      min-height: 100%; }
   header .cursor {
     animation: 1s blink step-end infinite; }
 
