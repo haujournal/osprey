@@ -133,6 +133,9 @@ header {
       border-bottom-left-radius: 5px;
       a {
         color: #FFF;
+        &:hover {
+            color: $accent;
+        }
       }
   }
   .headerBg {

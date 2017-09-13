@@ -906,6 +906,8 @@ header {
     border-bottom-left-radius: 5px; }
     header .credits a {
       color: #FFF; }
+      header .credits a:hover {
+        color: #7BC142; }
   header .headerBg {
     background-position: center;
     background-repeat: no-repeat;
