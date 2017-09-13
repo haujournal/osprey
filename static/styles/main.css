@@ -903,8 +903,9 @@ header {
     background-color: #212121;
     opacity: .6;
     padding: .25rem .5rem .25rem .25rem;
-    border-bottom-left-radius: 5px;
-    color: #FFF; }
+    border-bottom-left-radius: 5px; }
+    header .credits a {
+      color: #FFF; }
   header .headerBg {
     background-position: center;
     background-repeat: no-repeat;
